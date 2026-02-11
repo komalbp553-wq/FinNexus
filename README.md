@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FinNexus – Java Full Stack Forex Trading Platform (CDAC-Ready)
 
 FinNexus is a TradingView-inspired forex trading simulation platform built strictly with Java 17 + Spring Boot (REST) + React. It includes manual trading, robo strategies, wallet management, and analytics, designed for CDAC submissions and interview defense.
@@ -166,3 +167,7 @@ Import it into Postman and set the `token` variable after login.
 
 ## License
 Academic use only.
+=======
+# FinNexus
+Developed a full-stack Forex Trading Web Application using Java Spring Boot, featuring real-time market data, manual and automated trading, wallet management, and profit &amp; loss calculation with a clean, scalable architecture.
+>>>>>>> 68a8d7fe62051d82c6e69ba04a2851ea09ea0834
