@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/finnexus?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret: "ChangeThisSecretKeyToAtLeast32Chars!"
+  expirationMs: 86400000
+
+market:
+  provider: SIM
+  cache:
+    minTtlSeconds: 120
+    quoteTtlSeconds: 300
+  sim:
+    speed: 300
+    maxSteps: 6
+    maxCandles: 600
+
+twelvedata:
+  baseUrl: https://api.twelvedata.com
+  apiKey: ${TWELVEDATA_API_KEY:}

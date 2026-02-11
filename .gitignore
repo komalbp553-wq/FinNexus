@@ -1,0 +1,19 @@
+# Java
+/target/
+*.class
+
+# Maven
+/.mvn/wrapper/maven-wrapper.jar
+
+# Node
+/node_modules/
+/frontend/node_modules/
+
+# Vite
+/frontend/dist/
+
+# Env
+.env
+
+# OS
+.DS_Store
